@@ -1,4 +1,4 @@
-cc := $(CROSS_COMPILE)gcc
+cc := aarch64-none-linux-gnu-gcc
 
 all: writer
 
