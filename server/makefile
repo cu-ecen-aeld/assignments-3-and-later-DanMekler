@@ -1,4 +1,4 @@
-cc := gcc
+cc := aarch64-none-linux-gnu-gcc
 CFLAGS := -Wall -Wextra -g
 
 all: aesdsocket
