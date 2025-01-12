@@ -3,7 +3,7 @@
 case "$1" in
     start)
         echo "Starting aesdsocket"
-        start-stop-daemon -S -n aesdsocket -a ~/server
+        start-stop-daemon -S -n aesdsocket -a $(TARGET_DIR)/bin
         ;;
     stop)
         echo "Stopping aesdsocket"
